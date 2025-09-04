@@ -1,0 +1,11 @@
+Para investigarmos a segurança na comunicação entre cliente-servidor usando o protocolo HTTP no projeto All Books, vamos utilizar uma ferramenta que permita o monitoramento do tráfego de pacotes em uma rede, o Wireshark.
+
+O Wireshark é um software de código aberto, disponível para diversos sistemas operacionais, que atua na captura e análise do tráfego em uma rede em tempo real. É uma solução amplamente utilizada para identificar o comportamento da rede, diagnosticar problemas, analisar protocolos e investigar aspectos de segurança.
+
+Para realizar sua instalação, basta acessar a página oficial do Wireshark https://www.wireshark.org/ em seu navegador.
+
+Ao descer a página, você encontra a opção de fazer o download do Wireshark. Selecione a opção de instalador conforme as especificações da sua máquina. Basta clicar na opção selecionada de instalador para iniciar o download.
+
+Assim que o download for concluído, realize a instalação da ferramenta.
+
+Pronto, agora você já tem um importante instrumento de análise e monitoramento de tráfego de rede em seu computador! É hora de investigar os aspectos de segurança da versão do HTTP adotada no All Books.

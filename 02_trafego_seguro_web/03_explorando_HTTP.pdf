@@ -1,0 +1,7 @@
+As aplicações web são stateless, ou seja, não mantém o estado após o encerramento da conexão do navegador. Cada requisição HTTP é independente e tem a função nativa de efetuar dois procedimentos: realizar requisições do servidor web e manejar suas respostas.
+
+Os servidores web não possuem a responsabilidade de armazenar, autenticar dados do cliente ou manter as sessões, ou seja, manter o usuário logado em determinada página a cada requisição feita. Dessa maneira, um servidor web também não consegue identificar se mais de uma requisição foi executada por um mesmo navegador e é nesse cenário que os cookies entram em ação.
+
+As solicitações de cookies podem ser realizadas através de um header (cabeçalho de resposta) chamado Set-Cookie, estabelecido pelo servidor. Ao acessar pela primeira vez uma página web, as informações solicitadas neste cabeçalho de resposta (que variam de acordo com o que é determinado por cada site) ficam armazenadas no seu computador de forma local. Em seguida, na próxima requisição feita pelo usuário naquela mesma página web, o navegador do cliente envia os Cookies de volta ao servidor também através do header (cabeçalho) Cookie.
+
+Para entender mais detalhes sobre os Cookies, acesse nosso [artigo](https://www.alura.com.br/artigos/o-que-sao-cookies-como-funcionam).
